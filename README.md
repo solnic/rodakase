@@ -4,7 +4,11 @@
 [codeclimate]: https://codeclimate.com/github/solnic/rodakase
 [inchpages]: http://inch-ci.org/github/solnic/rodakase/
 
-# Rodakase [![Join the chat at https://gitter.im/solnic/rodakase](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/solnic/rodakase?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+# About
+
+This is the project where initial ideas behind dry-system, dry-view and dry-transaction have been tested out. Eventually, this repo was moved to dry-rb/dry-web and dry-rb/dry-web-roda was extracted from it to provide Roda support. I've re-pushed this repo for sentimental/historical reasons.
+
+# Rodakase (discontinued) [![Join the chat at https://gitter.im/solnic/rodakase](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/solnic/rodakase?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 [![Gem Version](https://badge.fury.io/rb/rodakase.svg)][gem]
 [![Build Status](https://travis-ci.org/solnic/rodakase.svg?branch=master)][travis]
@@ -47,10 +51,6 @@ Rodakase says **NO** to the following concepts:
 
 A sample rodakase-based web app is [right here](https://github.com/solnic/rodakase-blog).
 
-## Status
-
-This project hasn't been released yet. It's under heavy development.
-
 ## Tools
 
 Rodakase is based on a bunch of awesome libraries:
@@ -60,13 +60,7 @@ Rodakase is based on a bunch of awesome libraries:
 * dry-container
 * dry-auto_inject
 * tilt
-* transflow
-
-## The Book
-
-Rodakase will be described in ["Web Development with ROM and Roda"](https://leanpub.com/web-development-with-rom-and-roda) book
-that I'm working on. If you're interested in the project and/or the book, feel free
-to join [Rodakase gitter channel](https://gitter.im/solnic/rodakase).
+* transflow (later replaced by dry-transaction)
 
 ## LICENSE
 
